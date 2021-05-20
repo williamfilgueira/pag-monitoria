@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Cabeçalho------*/
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+.menu ul li a {
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    color: #ff8000;
+}
+
+.titulo {
+    width: 100%;
+    background-color: #ff8000;
+    padding: 15px;
+}
+
+.titulo h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.sobre {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #ddd;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.informacoes {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela thead {
+    background-color: rgb(155, 154, 154);
+}
+
+.tabela td {
+    border: 1px solid rgb(92, 92, 92);
+    padding: 6px;
+}
+
+.lista-locais ul {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-locais ul li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    background: #ff8000;
+    padding: 7px 12px;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+
+.rodape {
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(85, 83, 83);
+    background-image: url("./imagens/padrao-fundo-rodape.png");
+    border-top: solid 3px #ff8000;
+    text-align: center;
+}
+
+.rodape .logo {
+    margin-bottom: 30px;
+}
+
+.rodape .creditos {
+    color: white;
+    font-size: small;
+}
+
+
+/* Mapa */
+
+.mapa {
+    width: 100%;
+}
+
+.mapa img {
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Lista ordenada */
+
+.notaveis {
+    float: left;
+}
+
+.notaveis ol {
+    float: left;
+    font-size: 22px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Página de sugestão (Formulário) */
+
+.sugestao-texto {
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.form {
+    width: 100%;
+    min-height: 40px;
+    font-size: 17px;
+    text-indent: 10px;
+}
+
+.form-botao {
+    padding: 15px 30px;
+    background-color: #ff8000;
+    color: #fff;
+    border: 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.form-botao:hover {
+    background-color: #ff9b36;
+}
